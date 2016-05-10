@@ -1,0 +1,11 @@
+<div class="text-center">
+  <%= form_for(@task) do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+    <%= f.submit %>
+  <% end %>
+</div>
+
+<div class="text-center">
+  <%= link_to "home", tasks_path %>
+</div>
